@@ -1,0 +1,35 @@
+GIT Command
+git init --initialization of local git repository
+git clone ssh://github.com/kirkdevforbetter/SnowFlakesWithSSIS.git
+https://github.com/kirkdevforbetter/SnowFlakesWithSSIS
+git pull origin master
+
+git pull [<options>] [<repository> [<refspec>...]]
+
+git pull upstream
+
+Pull changes from a specific remote branch and rebase instead of merge:
+
+git pull --rebase origin main
+
+git add .                         # Add all changes to the staging area
+git commit -m 
+git commit -m "Made some changes"
+git push
+
+git status
+
+git rm -r nameoffile or folder
+
+git branch  -- list of all branches
+git branch -a all branches
+git branch new_branchName
+git branch -d nameoffileTodelete
+git push origin --delete [branchName] delete a remote branch 
+git branch -m old_name newname - renaming an old branch
+git checkout branchname -- switch a branch 
+git merge branchname
+git merge source branch targetbranch
+git stash -- stash changes in a dirty working directory 
+git log -- view changes
+git diff sourcebranch targetbranch 
